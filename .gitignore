@@ -9,6 +9,9 @@ apps/nc2000_tab5/managed_components/
 *.txt
 !requirements.txt
 
+# Merged flash image (distributed via GitHub Releases, not the repo)
+tab5-nc2000-merged.bin
+
 # ROM / firmware data (copyrighted, large — lives on the SD card)
 assets/*.bak
 assets/*.bin
