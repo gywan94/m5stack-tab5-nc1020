@@ -1,0 +1,19 @@
+#pragma once
+#define TP_I2C_SDA 31
+#define TP_I2C_SCL 32
+#define TP_RST      (-1)
+#define TP_INT      23
+#define I2S_MCLK_IO  30
+#define I2S_BCLK_IO  27
+#define I2S_WS_IO    29
+#define I2S_DOUT_IO  26
+#define I2S_DIN_IO   28
+#define AUDIO_PA_IO  (-1)
+#define LCD_BL_IO    22
+#define LCD_BK_LIGHT_GPIO 22
+#define SD_MMC_CLK  43
+#define SD_MMC_CMD  44
+#define SD_MMC_D0   39
+#define SD_MMC_D1   40
+#define SD_MMC_D2   41
+#define SD_MMC_D3   42

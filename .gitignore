@@ -1,0 +1,24 @@
+# ESP-IDF build artifacts
+apps/nc2000_tab5/build/
+apps/nc2000_tab5/sdkconfig
+apps/nc2000_tab5/sdkconfig.old
+apps/nc2000_tab5/dependencies.lock
+apps/nc2000_tab5/managed_components/
+
+# Debug captures / logs
+*.txt
+!requirements.txt
+
+# ROM / firmware data (copyrighted, large — lives on the SD card)
+assets/*.bak
+assets/*.bin
+*.rom
+*.nor
+*.nand
+*.nand0
+*.state
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

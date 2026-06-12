@@ -1,0 +1,8 @@
+# Standalone nc2000_tab5 partition table (16 MB flash) — SD-only build.
+# Everything (rom/nor/nand/state) lives on the SD card, so the app just needs a
+# large factory partition (the wqx C++ core + full STL is sizeable).
+#
+# Name,     Type, SubType, Offset,    Size,    Flags
+nvs,        data, nvs,     0x9000,    0x4000,
+otadata,    data, ota,     0xD000,    0x2000,
+factory,    app,  factory, 0x10000,   0x400000,
